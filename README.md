@@ -19,7 +19,14 @@ Since finviz screeners parameters are saved into the url, the subsequent tutoria
 Now that we have our generated screener we must now also see how many pages of tickers are generated as well. This is for us to iterate through
 all of the pages without only getting the first few.
 
+To find which web element describes the last page, which in the screenshot is page 40, simply right click and press "Inspect".
 In our case, the last page will always be given by the last element with class='screener-pages'. In this screenshot I picked the set of all 
 technology stocks to demonstrate that this is true even for larger screeer sets.
 
 <img src="https://github.com/denged1/Finviz-Webscraper/blob/main/docs/screenerInspect.png" style=" width:750px ; height:450px "  >
+
+Next we need to identify the class that describes the tickers. Once again we right click on the ticker and find the class name that describes it.
+In this case, the ticker is given by class="screener-link-primary".
+
+<img src="https://github.com/denged1/Finviz-Webscraper/blob/main/docs/tickerInspect.png" style=" width:750px ; height:450px "  >
+
