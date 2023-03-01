@@ -16,4 +16,4 @@ Since finviz screeners parameters are saved into the url, the subsequent tutoria
 
 
 
-<img src="https://github.com/denged1/Finviz-Webscraper/blob/main/docs/screenerSetUp.png" style=" width:600px ; height:400px "  >
+<img src="https://github.com/denged1/Finviz-Webscraper/blob/main/docs/screenerSetUp.png" style=" width:700px ; height:400px "  >
