@@ -8,5 +8,5 @@ error messages with the pip command that could be due to your python version. Tr
 First start by creating some screener in finviz. Here I selected any company in the technology sector that pays out a 3% of higher dividend.
 Since finviz screeners parameters are saved into the url, the subsequent tutorial and code will work for any finviz screener.
 
-![screener](/repository/docs/Screen Shot 2023-03-01 at 1.30.12 PM.png?raw=true)
+![alt text](/Finviz-Webscraper/docs/screenerSetUp.png?raw=true)
 
