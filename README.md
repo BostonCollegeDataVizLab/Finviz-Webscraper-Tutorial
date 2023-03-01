@@ -9,6 +9,11 @@ First start by creating some screener in finviz. Here I selected any company in 
 Since finviz screeners parameters are saved into the url, the subsequent tutorial and code will work for any finviz screener.
 
 
-<div style="width:60px ; height:60px">
+
 ![alt text](https://github.com/denged1/Finviz-Webscraper/blob/main/docs/screenerSetUp.png?raw=true "Set Up")
-<div>
+
+
+
+
+
+<img src="https://github.com/denged1/Finviz-Webscraper/blob/main/docs/screenerSetUp.png" style=" width:60px ; height:60px "  >
