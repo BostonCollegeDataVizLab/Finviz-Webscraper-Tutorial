@@ -10,8 +10,8 @@ Since finviz screeners parameters are saved into the url, the subsequent tutoria
 
 
 
-[//]: # (![alt text](https://github.com/denged1/Finviz-Webscraper/blob/main/docs/screenerSetUp.png?raw=true "Set Up"))
+[//]: # "![alt text](https://github.com/denged1/Finviz-Webscraper/blob/main/docs/screenerSetUp.png?raw=true "Set Up")"
 
 
 
-<img src="https://github.com/denged1/Finviz-Webscraper/blob/main/docs/screenerSetUp.png" style=" width:1000px ; height:600px "  >
+<img src="https://github.com/denged1/Finviz-Webscraper/blob/main/docs/screenerSetUp.png" style=" width:8000px ; height:450px "  >
