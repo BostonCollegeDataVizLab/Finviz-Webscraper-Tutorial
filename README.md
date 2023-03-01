@@ -14,4 +14,10 @@ Since finviz screeners parameters are saved into the url, the subsequent tutoria
 -->
 
 
-<img src="https://github.com/denged1/Finviz-Webscraper/blob/main/docs/screenerSetUp.png" style=" width:800px ; height:450px "  >
+<img src="https://github.com/denged1/Finviz-Webscraper/blob/main/docs/screenerSetUp.png" style=" width:750px ; height:450px "  >
+
+Now that we have our generated screener we must now also see how many pages of tickers are generated as well. This is for us to iterate through
+all of the pages without only getting the first few.
+
+In our case, the last page will always be given by the last element with class='screener-pages'.
+<img src="https://github.com/denged1/Finviz-Webscraper/blob/main/docs/screenerInspect.png" style=" width:750px ; height:450px "  >
