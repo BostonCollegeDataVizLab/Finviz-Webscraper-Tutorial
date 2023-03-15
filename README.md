@@ -49,6 +49,15 @@ last_page = int(pages[-1].text)
 
 Next we need to identify the class that describes the tickers. Once again we right click on the ticker and find the class name that describes it.
 In this case, the ticker is given by class="screener-link-primary".
+Similarly, we can now use find elements to access the ticker names. Now we can create a for loop and add each ticker on the page to a list.
+
+```python
+symbols = driver.find_elements(By.CLASS_NAME, 'screener-link-primary')
+ticker_list = []
+for i in symbols:
+    #the objects in the symbols list are selenium objects, so you need to use the .text function to convert to string
+    ticker_list.append(i.text)
+```
 
 <img src="https://github.com/denged1/Finviz-Webscraper/blob/main/docs/tickerInspect.png" style=" width:750px ; height:450px "  >
 
