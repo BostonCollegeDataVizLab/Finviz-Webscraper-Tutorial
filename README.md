@@ -5,7 +5,9 @@ This tutorial assumes you have python set up and have a basic understanding of h
 This python program depends on the Selenium and Webdriver Manager libraries to run. 
 Those can be installed with the pip commands or with conda.
 >pip install selenium
+
 >pip install webdriver_manager
+
 If you get any error messages with the pip command that could be due to your python version. Try "pip3" instead.
 
 First start by creating or finding a screener in finviz. Here I selected any company in the technology sector that pays out a 3% of higher dividend.
@@ -29,6 +31,7 @@ technology stocks to demonstrate that this is true even for larger screeer sets.
 Using this information, we can now instantiate a webdriver object, navigate to the url and collect the page numbers.
 If you have the ChromeDriver downloaded and are not using Webdriver Manager, use
 >driver = webdriver.Chrome()
+
 instead and it will automatically search for the path to it. (ChromeDriver can be downloaded at this url https://chromedriver.chromium.org/home)
 
 ```python
